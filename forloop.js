@@ -106,16 +106,16 @@
 
 ///////////////////
 /////11. Write a JS code to find the number of zeros in 2D Matrix
-const arr = [
-  [0, 1, 1],
-  [0, 1, 0],
-  [1, 0, 0],
-];
+// const arr = [
+//   [0, 1, 1],
+//   [0, 1, 0],
+//   [1, 0, 0],
+// ];
 
-let count = 0;
-for (let i = 0; i < arr.length; i++) {
-  for (let j = 0; j < arr[i].length; j++) {
-    count = arr[i][j] === 0 ? count + 1 : count;
-  }
-}
-console.log(count);
+// let count = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   for (let j = 0; j < arr[i].length; j++) {
+//     count = arr[i][j] === 0 ? count + 1 : count;
+//   }
+// }
+// console.log(count);
